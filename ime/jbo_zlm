@@ -1,0 +1,45 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    name[Group1] = "Lojban Zbalermorna";
+
+    key <TLDE>  { [     UED9B ]	};
+    key <AE01>  { [     UED8C, UED98 ]	};
+    key <AE02>  { [     UED8D ]	};
+    key <AE03>  { [     UED8E ]	};
+    key <AE04>  { [     UED8F ]	};
+    key <AE11>  { [     UED99 ]	};
+
+    key <AD01>  { [     UEDAA ]	};
+    key <AD02>  { [     UEDAB ]	};
+    key <AD03>	{ [     UEDA1, UEDB1 ]	};
+    key <AD04>	{ [     UED94 ]	};
+    key <AD05>	{ [     UED81 ]	};
+    key <AD06>	{ [     UEDA5, UEDB5 ]	};
+    key <AD07>	{ [     UEDA4, UEDB4 ]	};
+    key <AD08>	{ [     UEDA2, UEDB2 ]	};
+    key <AD09>	{ [     UEDA3, UEDB3 ]	};
+    key <AD10>	{ [     UED80 ]	};
+
+    key <AC01>	{ [     UEDA0, UEDB0 ]	};
+    key <AC02>	{ [     UED85 ]	};
+    key <AC03>	{ [     UED91 ]	};
+    key <AC04>	{ [     UED83 ]	};
+    key <AC05>	{ [     UED92 ]	};
+    key <AC06>	{ [     UED8A ]	};
+    key <AC07>	{ [     UED96 ]	};
+    key <AC08>	{ [     UED82 ]	};
+    key <AC09>	{ [     UED84 ]	};
+    key <AC11>	{ [     UED8A ]	};
+
+    key <AB01>	{ [     UED95 ] };
+    key <AB02>	{ [     UED88 ] };
+    key <AB03>	{ [     UED86 ] };
+    key <AB04>	{ [     UED93 ] };
+    key <AB05>	{ [     UED90 ] };
+    key <AB06>	{ [     UED97 ] };
+    key <AB07>	{ [     UED87 ] };
+    key <AB08>	{ [     UED9A ] };
+    key <AB09>	{ [     UED89 ] };
+
+};
