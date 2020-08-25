@@ -14,7 +14,7 @@ let
       meta = with stdenv.lib; {
         version = "0.1.0";
         description = "Transliterate latin text into Zbalermorna";
-        homepage = https://github.com/lboklin/zbalermorna;
+        homepage = https://github.com/jackhumbert/zbalermorna;
         platforms = platforms.linux;
         license = licenses.publicDomain;
       };
@@ -50,7 +50,7 @@ let
       meta = with stdenv.lib; {
         version = "0.1.0";
         description = "Replace clipboard or selection content with its transliteration into Zbalermorna";
-        homepage = https://github.com/lboklin/zbalermorna;
+        homepage = https://github.com/jackhumbert/zbalermorna;
         platforms = platforms.linux;
         license = licenses.agpl3;
       };
@@ -98,7 +98,7 @@ let
         isIbusEngine = true;
         inherit version;
         description = "Basic input method for Zbalermorna text";
-        homepage = https://github.com/lboklin/zbalermorna;
+        homepage = https://github.com/jackhumbert/zbalermorna;
         platforms = platforms.linux;
         license = licenses.lgpl3;
       };

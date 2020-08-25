@@ -36,7 +36,7 @@ Using [Nix flakes](https://www.tweag.io/blog/2020-07-31-nixos-flakes/):
 ```
 { description = "NixOS configuration with flakes";
 
-  inputs.zbalermorna.url = github:lboklin/zbalermorna;
+  inputs.zbalermorna.url = github:jackhumbert/zbalermorna;
 
   outputs = { self, nixpkgs, zbalermorna }: {
     # replace <your-hostname> with your actual hostname
@@ -130,6 +130,6 @@ in {
 
 ```bash
 cd /path/to/wherever/you/want/it
-nix run nixpkgs.nix-prefetch-github -c nix-prefetch-github --nix --prefetch lboklin zbalermorna > zbalermorna.nix
+nix run nixpkgs.nix-prefetch-github -c nix-prefetch-github --nix --prefetch jackhumbert zbalermorna > zbalermorna.nix
 ```
 or use `fetchFromGitHub` directly in the appropriate nix expression to get the source.
