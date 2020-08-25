@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 UNICODE_START=0xED80
 lerfu="ptkflscmx.' 1234bdgvrzjn\`-,~    aeiouy    qw    AEIOUY"

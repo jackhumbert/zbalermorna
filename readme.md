@@ -4,7 +4,7 @@
 A collection of tools and processes for using and developing typefaces for
 Zbalermorna, an alternative orthography for the constructed language Lojban.
 
-## Project status
+### Project status
 
 ###### Done
 
@@ -28,6 +28,9 @@ Zbalermorna, an alternative orthography for the constructed language Lojban.
 
 - [Tinycard deck of the 50 most common words in Lojban](https://tinycards.duolingo.com/decks/NE6TBYur/lojban-words-in-zbalermorna)
 
+### Installation with Nix
+
+Instructions for installing via home-manager or system-wide (recommended for NixOS users) - both with and without using the experimental nix flakes feature - can be found [here](./doc/installing-via-nix.md).
 
 ### How to type ZLM text
 
